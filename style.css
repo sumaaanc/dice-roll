@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    padding: 40px;
+    font-family: cursive;
+}
+
+.rollbtn{
+    background-color: rgb(27, 212, 27);
+    color: azure;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.rollbtn:hover{
+    background-color: rgb(7, 176, 7);
+}
+.rollbtn:active{
+    background-color: rgb(4, 79, 4);
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+}
+
+#diceImg img{
+    height: 300px;
+    width: 300px;
+}
